@@ -8,8 +8,9 @@ function nowServing(number){
     return "There is nobody waiting to be served!"
   }
   else{
-    "Currently serving " + number[0] + "."
+    var announcement = "Currently serving " + number[0] + "."
     number.shift();
+    return announcement
   }
 }
 
