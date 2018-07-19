@@ -23,6 +23,6 @@ function currentLine(number){
     for(var i = 0; i < number.length; i++){
       names = names + " " + (i + 1) + ". " + line[i] + ",";
     }
-    return "The line is currently: " + names.substring(0, names.length - 1);
+    return "The line is currently:" + names.substring(0, names.length - 1);
   }
 }
